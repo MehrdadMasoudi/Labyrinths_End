@@ -1,29 +1,64 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SwordHitBox : MonoBehaviour
 {
     [SerializeField] private LayerMask hittableLayers;
     [SerializeField] private int damage = 1;
-    private bool IsAttacking = false;
-    private bool HasHitAttack;
-    void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] private LayerMask pogoableLayers;
+    [SerializeField] private PlayerMovement playerMovement;
+    private ContactFilter2D pogoableFilter;
+    private Collider2D hitCollider;
+    private ContactFilter2D filter;
+    private readonly List<Collider2D> results = new();
+    private readonly HashSet<IDamageable> alreadyHit = new();
+    private bool isAttacking;
+
+    void Awake()
     {
-        if (!IsAttacking || HasHitAttack) return;
-        if (((1 << collision.gameObject.layer) & hittableLayers) == 0) return;
-        // checks with bit shift for any  hittable layers via finding any bits in common
-        if (collision.TryGetComponent<IDamageable>(out var damageable))
+        hitCollider = GetComponent<Collider2D>();
+        filter = new ContactFilter2D
         {
-            damageable.TakeDamage(damage);
-            HasHitAttack = true;
-        }
+            useLayerMask = true,
+            layerMask = hittableLayers,
+            useTriggers = true
+        };
+        pogoableFilter = new ContactFilter2D
+        {
+            useLayerMask = true,
+            layerMask = pogoableLayers,
+            useTriggers = true
+        };
     }
+
     public void StartAttack()
     {
-        IsAttacking = true;
-        HasHitAttack = false;
+        isAttacking = true;
+        alreadyHit.Clear();
+        Physics2D.SyncTransforms(); // hitbox was just enabled/flipped
+        CheckOverlaps();            // catches enemies already inside
     }
-    public void EndAttack()
+
+    public void EndAttack() => isAttacking = false;
+
+    void FixedUpdate()
     {
-        IsAttacking = false;
+        if (isAttacking) CheckOverlaps(); // catches enemies that walk in mid-swing
+    }
+
+    private void CheckOverlaps()
+    {
+        hitCollider.Overlap(filter, results);
+        foreach (var col in results)
+        {
+            var target = col.GetComponentInParent<IDamageable>();
+            if (target != null && alreadyHit.Add(target))
+                target.TakeDamage(damage);
+        }
+        hitCollider.Overlap(pogoableFilter, results);
+        if (results.Count > 0)
+        {
+            playerMovement.PogoBounce();
+        }
     }
 }

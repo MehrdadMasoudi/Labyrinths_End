@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     }
     public void TakeDamage(int amount)
     {
+        Debug.Log($"invincible: {IsInvincible}");
         if (IsInvincible || IsDead) return;
 
         currentHealth -= amount;

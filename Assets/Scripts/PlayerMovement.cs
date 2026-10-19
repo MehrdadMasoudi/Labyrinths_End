@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float shortHopJumpPlayerMultiplier = 0.5f;
     [SerializeField] float normalGravity = 5f;
     [SerializeField] float fallingGravity = 6f;
+    [SerializeField] float wallSlidingSpeed = 3f;
     [SerializeField] float wallJumpForceX = 10f;
     [SerializeField] float wallJumpForceY = 20f;
     [SerializeField] float wallJumpControllDelayDuration = 0.1f;
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 ledgeGrabOffSet = new Vector2(0, -1.44f);
     [SerializeField] Vector2 climbOffSet = new Vector2(0.85f, 1.65f);
     [SerializeField] float apexClipDuration = 0.625f;
+    [SerializeField] private float pogoBounceForce = 12f;
 
     private float peakY;
     private bool wasRisingLastFrame;
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
     WallDetector wallDetector;
     Rigidbody2D myRigidBody2D;
     LedgeDetector ledgeDetector;
+    [SerializeField] TrailRenderer trailRenderer;
 
     public enum MovementStates
     {
@@ -166,6 +169,14 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyFallGravity()
     {
         if (MovementFuncGuard()) return;
+        if (currentState == MovementStates.WallSliding)
+        {
+            if (myRigidBody2D.linearVelocityY < -wallSlidingSpeed)
+            {
+                myRigidBody2D.linearVelocityY = -wallSlidingSpeed;
+            }
+            return;
+        }
         if (myRigidBody2D.linearVelocityY < -maxFallSpeed)
         {
             myRigidBody2D.linearVelocityY = -maxFallSpeed;
@@ -263,6 +274,7 @@ public class PlayerMovement : MonoBehaviour
             myRigidBody2D.linearVelocityX = direction * dashSpeedOfPlayer;
             myRigidBody2D.linearVelocityY = 0f;
             myRigidBody2D.gravityScale = 0f;
+            trailRenderer.emitting = true;
             Invoke(nameof(ExitToGroundedState), dashDuration);
         }
     }
@@ -358,11 +370,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void ExitToGroundedState()
     {
+        trailRenderer.emitting = false;
         myRigidBody2D.gravityScale = normalGravity;
         currentState = ResolveGroundedState();
     }
     public void ExitToGroundedStatePublic()
     {
         ExitToGroundedState();
+    }
+    public void PogoBounce()
+    {
+        myRigidBody2D.linearVelocityY = pogoBounceForce;
+        jumpRemaining = maxJumps;
     }
 }
