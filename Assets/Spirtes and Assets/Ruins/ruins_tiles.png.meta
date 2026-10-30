@@ -1,0 +1,3765 @@
+fileFormatVersion: 2
+guid: becaf8f857a649f39cd0dc8cd0cb1be2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7078711269794864919
+    second: ruins_tiles_r00_c00
+  - first:
+      213: -1138021038116903419
+    second: ruins_tiles_r00_c01
+  - first:
+      213: 7746595406480313624
+    second: ruins_tiles_r00_c02
+  - first:
+      213: -4098100212240181738
+    second: ruins_tiles_r00_c03
+  - first:
+      213: 5956756565363548565
+    second: ruins_tiles_r00_c04
+  - first:
+      213: 5137611865538467640
+    second: ruins_tiles_r00_c05
+  - first:
+      213: -1125325776518586548
+    second: ruins_tiles_r00_c06
+  - first:
+      213: -2570170100307962470
+    second: ruins_tiles_r00_c07
+  - first:
+      213: -1937776805743892907
+    second: ruins_tiles_r00_c08
+  - first:
+      213: 3322138114783361192
+    second: ruins_tiles_r01_c00
+  - first:
+      213: -1774269469154408550
+    second: ruins_tiles_r01_c01
+  - first:
+      213: -4559234357674397587
+    second: ruins_tiles_r01_c03
+  - first:
+      213: -7092265802319514221
+    second: ruins_tiles_r01_c04
+  - first:
+      213: 6831100425783235226
+    second: ruins_tiles_r01_c05
+  - first:
+      213: 8577502193864190932
+    second: ruins_tiles_r01_c06
+  - first:
+      213: 8642550554533863466
+    second: ruins_tiles_r01_c07
+  - first:
+      213: -1949323903313010329
+    second: ruins_tiles_r02_c00
+  - first:
+      213: -6399072672243519734
+    second: ruins_tiles_r02_c01
+  - first:
+      213: 3888680394954197265
+    second: ruins_tiles_r02_c02
+  - first:
+      213: 4791982204936280446
+    second: ruins_tiles_r02_c03
+  - first:
+      213: -7083139716735803016
+    second: ruins_tiles_r02_c04
+  - first:
+      213: -503487405482192096
+    second: ruins_tiles_r02_c06
+  - first:
+      213: 4675879185421072355
+    second: ruins_tiles_r03_c00
+  - first:
+      213: -3369982803865197506
+    second: ruins_tiles_r03_c01
+  - first:
+      213: 4878779840247721619
+    second: ruins_tiles_r03_c02
+  - first:
+      213: -6903638168741214282
+    second: ruins_tiles_r03_c03
+  - first:
+      213: -7675719261043621008
+    second: ruins_tiles_r03_c04
+  - first:
+      213: -3744590072061537737
+    second: ruins_tiles_r03_c05
+  - first:
+      213: -1513089085910825027
+    second: ruins_tiles_r03_c06
+  - first:
+      213: 1223323078409377058
+    second: ruins_tiles_r03_c07
+  - first:
+      213: 6597000958098701643
+    second: ruins_tiles_r03_c12
+  - first:
+      213: -3988589740016497128
+    second: ruins_tiles_r03_c13
+  - first:
+      213: -6979400304131077844
+    second: ruins_tiles_r04_c00
+  - first:
+      213: -8768009755908968897
+    second: ruins_tiles_r04_c01
+  - first:
+      213: 7604382409231197081
+    second: ruins_tiles_r04_c02
+  - first:
+      213: 8762209123917234979
+    second: ruins_tiles_r04_c03
+  - first:
+      213: -8554324697045948768
+    second: ruins_tiles_r04_c04
+  - first:
+      213: 4137563927835939304
+    second: ruins_tiles_r04_c05
+  - first:
+      213: 4810630648540401120
+    second: ruins_tiles_r04_c06
+  - first:
+      213: 6206241524019864531
+    second: ruins_tiles_r04_c07
+  - first:
+      213: 4969297472764110922
+    second: ruins_tiles_r04_c12
+  - first:
+      213: -1019176763717438833
+    second: ruins_tiles_r04_c13
+  - first:
+      213: 6040133214344658229
+    second: ruins_tiles_r05_c00
+  - first:
+      213: 8920308946322808508
+    second: ruins_tiles_r05_c01
+  - first:
+      213: -2447036178148943021
+    second: ruins_tiles_r05_c02
+  - first:
+      213: -6451365242604128314
+    second: ruins_tiles_r05_c03
+  - first:
+      213: -7972962873770585803
+    second: ruins_tiles_r05_c04
+  - first:
+      213: -8667454969401244755
+    second: ruins_tiles_r05_c05
+  - first:
+      213: 4099789897828879403
+    second: ruins_tiles_r05_c06
+  - first:
+      213: -6478571763825630063
+    second: ruins_tiles_r05_c07
+  - first:
+      213: 8533706559027002343
+    second: ruins_tiles_r05_c08
+  - first:
+      213: -4587575009387131283
+    second: ruins_tiles_r05_c09
+  - first:
+      213: -8760559904274089871
+    second: ruins_tiles_r05_c10
+  - first:
+      213: 5688016490596934852
+    second: ruins_tiles_r05_c11
+  - first:
+      213: 8764294896182635829
+    second: ruins_tiles_r05_c12
+  - first:
+      213: 5686157744486861977
+    second: ruins_tiles_r05_c13
+  - first:
+      213: 7631073187669369031
+    second: ruins_tiles_r06_c00
+  - first:
+      213: -1820344836032458018
+    second: ruins_tiles_r06_c01
+  - first:
+      213: -5851501524161482788
+    second: ruins_tiles_r06_c02
+  - first:
+      213: 3318160569204603126
+    second: ruins_tiles_r06_c03
+  - first:
+      213: 6023408741742626628
+    second: ruins_tiles_r06_c04
+  - first:
+      213: -2544214706652261114
+    second: ruins_tiles_r06_c05
+  - first:
+      213: -3803762753894681039
+    second: ruins_tiles_r06_c06
+  - first:
+      213: 6501215596241200867
+    second: ruins_tiles_r06_c07
+  - first:
+      213: 6601640534310947581
+    second: ruins_tiles_r06_c08
+  - first:
+      213: 5598881836539207479
+    second: ruins_tiles_r06_c11
+  - first:
+      213: 1590349959371991716
+    second: ruins_tiles_r06_c12
+  - first:
+      213: 6866444496916753652
+    second: ruins_tiles_r06_c13
+  - first:
+      213: -4342635684743175281
+    second: ruins_tiles_r07_c00
+  - first:
+      213: -5720814164342330185
+    second: ruins_tiles_r07_c01
+  - first:
+      213: -2278430132896589818
+    second: ruins_tiles_r07_c02
+  - first:
+      213: 1575721028256773665
+    second: ruins_tiles_r07_c03
+  - first:
+      213: 4843659939609927537
+    second: ruins_tiles_r07_c04
+  - first:
+      213: 888164124715915729
+    second: ruins_tiles_r07_c05
+  - first:
+      213: -2756839736211718610
+    second: ruins_tiles_r07_c06
+  - first:
+      213: -3125058656864108166
+    second: ruins_tiles_r07_c07
+  - first:
+      213: 8265455427480552794
+    second: ruins_tiles_r07_c08
+  - first:
+      213: -2479860351030819993
+    second: ruins_tiles_r07_c09
+  - first:
+      213: 3532567818814842199
+    second: ruins_tiles_r08_c00
+  - first:
+      213: 1811524794441626441
+    second: ruins_tiles_r08_c01
+  - first:
+      213: 2691980295112307242
+    second: ruins_tiles_r08_c02
+  - first:
+      213: 8397813523564571975
+    second: ruins_tiles_r08_c03
+  - first:
+      213: 1216024951782057636
+    second: ruins_tiles_r08_c04
+  - first:
+      213: -7967392177878635469
+    second: ruins_tiles_r08_c05
+  - first:
+      213: -573229738215161564
+    second: ruins_tiles_r08_c06
+  - first:
+      213: 3301665703001722109
+    second: ruins_tiles_r08_c07
+  - first:
+      213: -4842387964435911420
+    second: ruins_tiles_r08_c08
+  - first:
+      213: 2807629841827021522
+    second: ruins_tiles_r08_c09
+  - first:
+      213: 5588430173297464002
+    second: ruins_tiles_r09_c00
+  - first:
+      213: 7504487475647182322
+    second: ruins_tiles_r09_c01
+  - first:
+      213: -3687138054743940880
+    second: ruins_tiles_r09_c02
+  - first:
+      213: -496525751450896414
+    second: ruins_tiles_r09_c03
+  - first:
+      213: 7693067871570504060
+    second: ruins_tiles_r09_c04
+  - first:
+      213: -3113373555703484282
+    second: ruins_tiles_r09_c05
+  - first:
+      213: -3924076380696638956
+    second: ruins_tiles_r09_c06
+  - first:
+      213: -4234030886126596388
+    second: ruins_tiles_r09_c07
+  - first:
+      213: 1339299315524760409
+    second: ruins_tiles_r09_c08
+  - first:
+      213: -3795194244039590547
+    second: ruins_tiles_r09_c09
+  - first:
+      213: -7559120631113711627
+    second: ruins_tiles_r10_c00
+  - first:
+      213: 6937777659215507350
+    second: ruins_tiles_r10_c01
+  - first:
+      213: 6309811017441931820
+    second: ruins_tiles_r10_c02
+  - first:
+      213: -7145981688556389403
+    second: ruins_tiles_r10_c03
+  - first:
+      213: -820942232137349362
+    second: ruins_tiles_r10_c04
+  - first:
+      213: -4885830909303663567
+    second: ruins_tiles_r10_c05
+  - first:
+      213: 7437228290024862266
+    second: ruins_tiles_r11_c00
+  - first:
+      213: -649330344329460319
+    second: ruins_tiles_r11_c01
+  - first:
+      213: 8694265515192267031
+    second: ruins_tiles_r11_c02
+  - first:
+      213: 639604030090855646
+    second: ruins_tiles_r11_c03
+  - first:
+      213: -1654352056744768398
+    second: ruins_tiles_r11_c04
+  - first:
+      213: -2826894546780621156
+    second: ruins_tiles_r11_c05
+  - first:
+      213: -1541604051927678973
+    second: ruins_tiles_r12_c00
+  - first:
+      213: -2094345257482806984
+    second: ruins_tiles_r12_c01
+  - first:
+      213: 3354263614040849535
+    second: ruins_tiles_r12_c02
+  - first:
+      213: 6293686871898380972
+    second: ruins_tiles_r12_c09
+  - first:
+      213: -4271920679774370786
+    second: ruins_tiles_r12_c10
+  - first:
+      213: 4281188829431859138
+    second: ruins_tiles_r12_c11
+  - first:
+      213: 479059078622464359
+    second: ruins_tiles_r13_c00
+  - first:
+      213: -7251138001084460547
+    second: ruins_tiles_r13_c01
+  - first:
+      213: -6999004852587047486
+    second: ruins_tiles_r13_c02
+  - first:
+      213: -2522637478042405087
+    second: ruins_tiles_r13_c09
+  - first:
+      213: 1605030608146193939
+    second: ruins_tiles_r13_c10
+  - first:
+      213: 881553052316887359
+    second: ruins_tiles_r13_c11
+  - first:
+      213: -314194153705448033
+    second: ruins_tiles_r14_c00
+  - first:
+      213: -6167641856412944052
+    second: ruins_tiles_r14_c01
+  - first:
+      213: 7118535239042024178
+    second: ruins_tiles_r14_c02
+  - first:
+      213: -8829623483643955401
+    second: ruins_tiles_r14_c03
+  - first:
+      213: -3492351320336167970
+    second: ruins_tiles_r14_c09
+  - first:
+      213: -2653627620029782928
+    second: ruins_tiles_r14_c10
+  - first:
+      213: 2181463535133890674
+    second: ruins_tiles_r14_c11
+  - first:
+      213: 6762191698948210705
+    second: ruins_tiles_r15_c00
+  - first:
+      213: 599017064408785058
+    second: ruins_tiles_r15_c01
+  - first:
+      213: 5269078050710326367
+    second: ruins_tiles_r15_c02
+  - first:
+      213: -7519167684711003749
+    second: ruins_tiles_r15_c03
+  - first:
+      213: -8753387666108222887
+    second: ruins_tiles_r15_c04
+  - first:
+      213: -7336806078315935791
+    second: ruins_tiles_r15_c05
+  - first:
+      213: 8235746045507314394
+    second: ruins_tiles_r15_c06
+  - first:
+      213: -1498846597241728963
+    second: ruins_tiles_r15_c07
+  - first:
+      213: 2787081931233841582
+    second: ruins_tiles_r15_c08
+  - first:
+      213: -1340951030041432764
+    second: ruins_tiles_r15_c09
+  - first:
+      213: 4838075957449146493
+    second: ruins_tiles_r15_c10
+  - first:
+      213: 1518775968465069855
+    second: ruins_tiles_r15_c11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0a250da9d53cd90800000000000000
+      internalID: -7078711269794864919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506ee1435efe430f0800000000000000
+      internalID: -1138021038116903419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d8eed9a7f618b60800000000000000
+      internalID: 7746595406480313624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6169873d19f9027c0800000000000000
+      internalID: -4098100212240181738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59168f33986aaa250800000000000000
+      internalID: 5956756565363548565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837904f75c67c4740800000000000000
+      internalID: 5137611865538467640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd4022b2a0260f0800000000000000
+      internalID: -1125325776518586548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9550de39ebe45cd0800000000000000
+      internalID: -2570170100307962470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r00_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556e4af0342ab15e0800000000000000
+      internalID: -1937776805743892907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8b272930b9a1e20800000000000000
+      internalID: 3322138114783361192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a970b3b71578067e0800000000000000
+      internalID: -1774269469154408550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60bf0fe1885ab0c0800000000000000
+      internalID: -4559234357674397587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395381844d5339d90800000000000000
+      internalID: -7092265802319514221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9254dff4a1fcce50800000000000000
+      internalID: 6831100425783235226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dba86dbcc8690770800000000000000
+      internalID: 8577502193864190932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r01_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20a85c60f180f770800000000000000
+      internalID: 8642550554533863466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761a9d6ec3c92f4e0800000000000000
+      internalID: -1949323903313010329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fe30fee4de137a0800000000000000
+      internalID: -6399072672243519734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1194542573e57f530800000000000000
+      internalID: 3888680394954197265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7958372d6a808240800000000000000
+      internalID: 4791982204936280446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8716089a4f1a3bd90800000000000000
+      internalID: -7083139716735803016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r02_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023d95f4fd04309f0800000000000000
+      internalID: -503487405482192096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e77aa3685f04e040800000000000000
+      internalID: 4675879185421072355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34a07cae7a6b31d0800000000000000
+      internalID: -3369982803865197506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e6d437a68e4b340800000000000000
+      internalID: 4878779840247721619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b70a5e99a95130a0800000000000000
+      internalID: -6903638168741214282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0730fd1fffd5a7590800000000000000
+      internalID: -7675719261043621008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732515d4b2b880cc0800000000000000
+      internalID: -3744590072061537737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c3c83e7d600be0800000000000000
+      internalID: -1513089085910825027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d02ebbdd1af010800000000000000
+      internalID: 1223323078409377058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d72624b614d8b50800000000000000
+      internalID: 6597000958098701643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r03_c13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e8c8f83cea5a8c0800000000000000
+      internalID: -3988589740016497128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29830fd660342f90800000000000000
+      internalID: -6979400304131077844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ee2e7f495c15680800000000000000
+      internalID: -8768009755908968897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993647ee281388960800000000000000
+      internalID: 7604382409231197081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32306c626ce999970800000000000000
+      internalID: 8762209123917234979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6a933c20fe84980800000000000000
+      internalID: -8554324697045948768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1912a78749b6930800000000000000
+      internalID: 4137563927835939304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed8bd7461bc2c240800000000000000
+      internalID: 4810630648540401120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3ab75b8cff02650800000000000000
+      internalID: 6206241524019864531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48e95719bd76f440800000000000000
+      internalID: 4969297472764110922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r04_c13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f823a4b12282bd1f0800000000000000
+      internalID: -1019176763717438833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d3d0d082dd2d350800000000000000
+      internalID: 6040133214344658229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe5f4099bd4bcb70800000000000000
+      internalID: 8920308946322808508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b17e89f816a0ed0800000000000000
+      internalID: -2447036178148943021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7774e1e752876a0800000000000000
+      internalID: -6451365242604128314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531d68542885a5190800000000000000
+      internalID: -7972962873770585803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da30522a0a307b780800000000000000
+      internalID: -8667454969401244755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c43d1c03165e830800000000000000
+      internalID: 4099789897828879403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1942c454e4d7716a0800000000000000
+      internalID: -6478571763825630063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb934e6e0dd6670800000000000000
+      internalID: 8533706559027002343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e4501c5d8a550c0800000000000000
+      internalID: -4587575009387131283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1787638be2d3c6680800000000000000
+      internalID: -8760559904274089871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4289e9cd4efee40800000000000000
+      internalID: 5688016490596934852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d2cb9d5c701a970800000000000000
+      internalID: 8764294896182635829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r05_c13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cc9f0975a49ee40800000000000000
+      internalID: 5686157744486861977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c06a0e02a407e960800000000000000
+      internalID: 7631073187669369031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed291972406dcb6e0800000000000000
+      internalID: -1820344836032458018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa2b9cd5a4bcea0800000000000000
+      internalID: -5851501524161482788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8f52315797c0e20800000000000000
+      internalID: 3318160569204603126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4474d845652779350800000000000000
+      internalID: 6023408741742626628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605daa1443221bcd0800000000000000
+      internalID: -2544214706652261114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136fe34bde1563bc0800000000000000
+      internalID: -3803762753894681039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6af2ec325f83a50800000000000000
+      internalID: 6501215596241200867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa8c66c61dbd9b50800000000000000
+      internalID: 6601640534310947581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f5e4ebd5933bd40800000000000000
+      internalID: 5598881836539207479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaacecacde021610800000000000000
+      internalID: 1590349959371991716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r06_c13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fca8a4d3e28a4f50800000000000000
+      internalID: 6866444496916753652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83a2fd5adbdbb3c0800000000000000
+      internalID: -4342635684743175281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc2a54e3d59b90b0800000000000000
+      internalID: -5720814164342330185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6081723add36160e0800000000000000
+      internalID: -2278430132896589818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126bb5a3de51ed510800000000000000
+      internalID: 1575721028256773665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c05
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d910f3d094635c00800000000000000
+      internalID: 888164124715915729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e3b64cddcbdb9d0800000000000000
+      internalID: -2756839736211718610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a710b5775bf81a4d0800000000000000
+      internalID: -3125058656864108166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a558dc54bebc4b270800000000000000
+      internalID: 8265455427480552794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r07_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7638b3c4624c59dd0800000000000000
+      internalID: -2479860351030819993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7556f6107b3360130800000000000000
+      internalID: 3532567818814842199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9437182e334d32910800000000000000
+      internalID: 1811524794441626441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a223580d0d5db5520800000000000000
+      internalID: 2691980295112307242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74da90af7e60b8470800000000000000
+      internalID: 8397813523564571975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a62bf8304030e010800000000000000
+      internalID: 1216024951782057636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421cef6179a7b08f0800000000000000
+      internalID: -573229738215161564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc0282c67fd1dd20800000000000000
+      internalID: 3301665703001722109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dab2b6dc16cccb0800000000000000
+      internalID: -4842387964435911420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r08_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2c2e63774b6f620800000000000000
+      internalID: 2807629841827021522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2587342a71e8d40800000000000000
+      internalID: 5588430173297464002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5715f399b452860800000000000000
+      internalID: 7504487475647182322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0a9297977a4dcc0800000000000000
+      internalID: -3687138054743940880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e77fe2b57cfb19f0800000000000000
+      internalID: -496525751450896414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c792ee5387443ca60800000000000000
+      internalID: 7693067871570504060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680f2371f331bc4d0800000000000000
+      internalID: -3113373555703484282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a83198251ea89c0800000000000000
+      internalID: -3924076380696638956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde44688753bd35c0800000000000000
+      internalID: -4234030886126596388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953f6cda1a5269210800000000000000
+      internalID: 1339299315524760409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r09_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6db96e51f2c45bc0800000000000000
+      internalID: -3795194244039590547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fff32006db981790800000000000000
+      internalID: -7559120631113711627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f6e2ce500f74060800000000000000
+      internalID: 6937777659215507350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22f87680b3f09750800000000000000
+      internalID: 6309811017441931820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb762ae38f54dc90800000000000000
+      internalID: -7145981688556389403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e074650b36d6b94f0800000000000000
+      internalID: -820942232137349362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r10_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134d45a9caa023cb0800000000000000
+      internalID: -4885830909303663567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32fa64c9b7563760800000000000000
+      internalID: 7437228290024862266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a54c5cfd7d1df6f0800000000000000
+      internalID: -649330344329460319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711b6fffb6c38a870800000000000000
+      internalID: 8694265515192267031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed449720a7450e800800000000000000
+      internalID: 639604030090855646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c8a4cc19f8a09e0800000000000000
+      internalID: -1654352056744768398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r11_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96f6a1236ad4c8d0800000000000000
+      internalID: -2826894546780621156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3004c84584f1b9ae0800000000000000
+      internalID: -1541604051927678973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83996baa5146fe2e0800000000000000
+      internalID: -2094345257482806984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c3ced3cfcbc8e20800000000000000
+      internalID: 3354263614040849535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caada075ddaa75750800000000000000
+      internalID: 6293686871898380972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14476d76c617b4c0800000000000000
+      internalID: -4271920679774370786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r12_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c708a2ce86d96b30800000000000000
+      internalID: 4281188829431859138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769c7bf91b5f5a600800000000000000
+      internalID: 479059078622464359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1560cf768ce5b90800000000000000
+      internalID: -7251138001084460547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5505c3b2a8ede90800000000000000
+      internalID: -6999004852587047486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127f138449acdfcd0800000000000000
+      internalID: -2522637478042405087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ede2495d6364610800000000000000
+      internalID: 1605030608146193939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r13_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39620694d7eb3c00800000000000000
+      internalID: 881553052316887359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd1e5f412c3abf0800000000000000
+      internalID: -314194153705448033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49fcaeb862286aa0800000000000000
+      internalID: -6167641856412944052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f24334951e1ac260800000000000000
+      internalID: 7118535239042024178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73774f41930e67580800000000000000
+      internalID: -8829623483643955401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb0f783afca88fc0800000000000000
+      internalID: -3492351320336167970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a5f53dbb6c2bd0800000000000000
+      internalID: -2653627620029782928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r14_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2789f1ef68d164e10800000000000000
+      internalID: 2181463535133890674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11047e6c58128dd50800000000000000
+      internalID: 6762191698948210705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ab7aa8d2205800800000000000000
+      internalID: 599017064408785058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c856202968f1940800000000000000
+      internalID: 5269078050710326367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99443a34dc86a790800000000000000
+      internalID: -7519167684711003749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c04
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952755c8b48b58680800000000000000
+      internalID: -8753387666108222887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c05
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d74d0c6ebd6e2a90800000000000000
+      internalID: -7336806078315935791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c06
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2aaceb46f3b4270800000000000000
+      internalID: 8235746045507314394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c07
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d309a9606f6033be0800000000000000
+      internalID: -1498846597241728963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c08
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea15a17ff34bda620800000000000000
+      internalID: 2787081931233841582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c09
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44daf21942cf36de0800000000000000
+      internalID: -1340951030041432764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d704d18337c442340800000000000000
+      internalID: 4838075957449146493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_tiles_r15_c11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17a2cd42b6c31510800000000000000
+      internalID: 1518775968465069855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 32c671198d634ccf8ec076bdaff12e99
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ruins_tiles_r00_c00: -7078711269794864919
+      ruins_tiles_r00_c01: -1138021038116903419
+      ruins_tiles_r00_c02: 7746595406480313624
+      ruins_tiles_r00_c03: -4098100212240181738
+      ruins_tiles_r00_c04: 5956756565363548565
+      ruins_tiles_r00_c05: 5137611865538467640
+      ruins_tiles_r00_c06: -1125325776518586548
+      ruins_tiles_r00_c07: -2570170100307962470
+      ruins_tiles_r00_c08: -1937776805743892907
+      ruins_tiles_r01_c00: 3322138114783361192
+      ruins_tiles_r01_c01: -1774269469154408550
+      ruins_tiles_r01_c03: -4559234357674397587
+      ruins_tiles_r01_c04: -7092265802319514221
+      ruins_tiles_r01_c05: 6831100425783235226
+      ruins_tiles_r01_c06: 8577502193864190932
+      ruins_tiles_r01_c07: 8642550554533863466
+      ruins_tiles_r02_c00: -1949323903313010329
+      ruins_tiles_r02_c01: -6399072672243519734
+      ruins_tiles_r02_c02: 3888680394954197265
+      ruins_tiles_r02_c03: 4791982204936280446
+      ruins_tiles_r02_c04: -7083139716735803016
+      ruins_tiles_r02_c06: -503487405482192096
+      ruins_tiles_r03_c00: 4675879185421072355
+      ruins_tiles_r03_c01: -3369982803865197506
+      ruins_tiles_r03_c02: 4878779840247721619
+      ruins_tiles_r03_c03: -6903638168741214282
+      ruins_tiles_r03_c04: -7675719261043621008
+      ruins_tiles_r03_c05: -3744590072061537737
+      ruins_tiles_r03_c06: -1513089085910825027
+      ruins_tiles_r03_c07: 1223323078409377058
+      ruins_tiles_r03_c12: 6597000958098701643
+      ruins_tiles_r03_c13: -3988589740016497128
+      ruins_tiles_r04_c00: -6979400304131077844
+      ruins_tiles_r04_c01: -8768009755908968897
+      ruins_tiles_r04_c02: 7604382409231197081
+      ruins_tiles_r04_c03: 8762209123917234979
+      ruins_tiles_r04_c04: -8554324697045948768
+      ruins_tiles_r04_c05: 4137563927835939304
+      ruins_tiles_r04_c06: 4810630648540401120
+      ruins_tiles_r04_c07: 6206241524019864531
+      ruins_tiles_r04_c12: 4969297472764110922
+      ruins_tiles_r04_c13: -1019176763717438833
+      ruins_tiles_r05_c00: 6040133214344658229
+      ruins_tiles_r05_c01: 8920308946322808508
+      ruins_tiles_r05_c02: -2447036178148943021
+      ruins_tiles_r05_c03: -6451365242604128314
+      ruins_tiles_r05_c04: -7972962873770585803
+      ruins_tiles_r05_c05: -8667454969401244755
+      ruins_tiles_r05_c06: 4099789897828879403
+      ruins_tiles_r05_c07: -6478571763825630063
+      ruins_tiles_r05_c08: 8533706559027002343
+      ruins_tiles_r05_c09: -4587575009387131283
+      ruins_tiles_r05_c10: -8760559904274089871
+      ruins_tiles_r05_c11: 5688016490596934852
+      ruins_tiles_r05_c12: 8764294896182635829
+      ruins_tiles_r05_c13: 5686157744486861977
+      ruins_tiles_r06_c00: 7631073187669369031
+      ruins_tiles_r06_c01: -1820344836032458018
+      ruins_tiles_r06_c02: -5851501524161482788
+      ruins_tiles_r06_c03: 3318160569204603126
+      ruins_tiles_r06_c04: 6023408741742626628
+      ruins_tiles_r06_c05: -2544214706652261114
+      ruins_tiles_r06_c06: -3803762753894681039
+      ruins_tiles_r06_c07: 6501215596241200867
+      ruins_tiles_r06_c08: 6601640534310947581
+      ruins_tiles_r06_c11: 5598881836539207479
+      ruins_tiles_r06_c12: 1590349959371991716
+      ruins_tiles_r06_c13: 6866444496916753652
+      ruins_tiles_r07_c00: -4342635684743175281
+      ruins_tiles_r07_c01: -5720814164342330185
+      ruins_tiles_r07_c02: -2278430132896589818
+      ruins_tiles_r07_c03: 1575721028256773665
+      ruins_tiles_r07_c04: 4843659939609927537
+      ruins_tiles_r07_c05: 888164124715915729
+      ruins_tiles_r07_c06: -2756839736211718610
+      ruins_tiles_r07_c07: -3125058656864108166
+      ruins_tiles_r07_c08: 8265455427480552794
+      ruins_tiles_r07_c09: -2479860351030819993
+      ruins_tiles_r08_c00: 3532567818814842199
+      ruins_tiles_r08_c01: 1811524794441626441
+      ruins_tiles_r08_c02: 2691980295112307242
+      ruins_tiles_r08_c03: 8397813523564571975
+      ruins_tiles_r08_c04: 1216024951782057636
+      ruins_tiles_r08_c05: -7967392177878635469
+      ruins_tiles_r08_c06: -573229738215161564
+      ruins_tiles_r08_c07: 3301665703001722109
+      ruins_tiles_r08_c08: -4842387964435911420
+      ruins_tiles_r08_c09: 2807629841827021522
+      ruins_tiles_r09_c00: 5588430173297464002
+      ruins_tiles_r09_c01: 7504487475647182322
+      ruins_tiles_r09_c02: -3687138054743940880
+      ruins_tiles_r09_c03: -496525751450896414
+      ruins_tiles_r09_c04: 7693067871570504060
+      ruins_tiles_r09_c05: -3113373555703484282
+      ruins_tiles_r09_c06: -3924076380696638956
+      ruins_tiles_r09_c07: -4234030886126596388
+      ruins_tiles_r09_c08: 1339299315524760409
+      ruins_tiles_r09_c09: -3795194244039590547
+      ruins_tiles_r10_c00: -7559120631113711627
+      ruins_tiles_r10_c01: 6937777659215507350
+      ruins_tiles_r10_c02: 6309811017441931820
+      ruins_tiles_r10_c03: -7145981688556389403
+      ruins_tiles_r10_c04: -820942232137349362
+      ruins_tiles_r10_c05: -4885830909303663567
+      ruins_tiles_r11_c00: 7437228290024862266
+      ruins_tiles_r11_c01: -649330344329460319
+      ruins_tiles_r11_c02: 8694265515192267031
+      ruins_tiles_r11_c03: 639604030090855646
+      ruins_tiles_r11_c04: -1654352056744768398
+      ruins_tiles_r11_c05: -2826894546780621156
+      ruins_tiles_r12_c00: -1541604051927678973
+      ruins_tiles_r12_c01: -2094345257482806984
+      ruins_tiles_r12_c02: 3354263614040849535
+      ruins_tiles_r12_c09: 6293686871898380972
+      ruins_tiles_r12_c10: -4271920679774370786
+      ruins_tiles_r12_c11: 4281188829431859138
+      ruins_tiles_r13_c00: 479059078622464359
+      ruins_tiles_r13_c01: -7251138001084460547
+      ruins_tiles_r13_c02: -6999004852587047486
+      ruins_tiles_r13_c09: -2522637478042405087
+      ruins_tiles_r13_c10: 1605030608146193939
+      ruins_tiles_r13_c11: 881553052316887359
+      ruins_tiles_r14_c00: -314194153705448033
+      ruins_tiles_r14_c01: -6167641856412944052
+      ruins_tiles_r14_c02: 7118535239042024178
+      ruins_tiles_r14_c03: -8829623483643955401
+      ruins_tiles_r14_c09: -3492351320336167970
+      ruins_tiles_r14_c10: -2653627620029782928
+      ruins_tiles_r14_c11: 2181463535133890674
+      ruins_tiles_r15_c00: 6762191698948210705
+      ruins_tiles_r15_c01: 599017064408785058
+      ruins_tiles_r15_c02: 5269078050710326367
+      ruins_tiles_r15_c03: -7519167684711003749
+      ruins_tiles_r15_c04: -8753387666108222887
+      ruins_tiles_r15_c05: -7336806078315935791
+      ruins_tiles_r15_c06: 8235746045507314394
+      ruins_tiles_r15_c07: -1498846597241728963
+      ruins_tiles_r15_c08: 2787081931233841582
+      ruins_tiles_r15_c09: -1340951030041432764
+      ruins_tiles_r15_c10: 4838075957449146493
+      ruins_tiles_r15_c11: 1518775968465069855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
