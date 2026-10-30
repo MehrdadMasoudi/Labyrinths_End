@@ -3261,7 +3261,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.307276, y: 1.1877899, z: -10}
+  m_LocalPosition: {x: 25.314278, y: 1.18787, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3630,6 +3630,7 @@ GameObject:
   - component: {fileID: 619953681}
   - component: {fileID: 619953682}
   - component: {fileID: 619953683}
+  - component: {fileID: 619953684}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -3719,7 +3720,7 @@ Transform:
   m_GameObject: {fileID: 619953670}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.5, y: -2.8, z: 0}
+  m_LocalPosition: {x: 118.3, y: 12.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4223,6 +4224,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFade
   spriteRenderer: {fileID: 619953677}
   fadeDuration: 0.5
+--- !u!114 &619953684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619953670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873f9b4d2165dde4680601b794718131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
 --- !u!1001 &661627093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13234,7 +13247,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

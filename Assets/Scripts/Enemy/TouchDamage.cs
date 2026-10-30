@@ -33,6 +33,8 @@ public class TouchDamage : MonoBehaviour
         triggerCollider.Overlap(filter, results);
         foreach (var col in results)
         {
+            if (col.GetComponentInParent<SwordHitBox>() != null) continue;
+
             var target = col.GetComponentInParent<IDamageable>();
             if (target == null) continue;
 
