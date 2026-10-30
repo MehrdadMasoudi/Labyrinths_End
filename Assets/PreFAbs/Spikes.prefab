@@ -97,6 +97,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   destroyOnHit: 0
+  knockbackPlayer: 1
+  knockbackForce: {x: 8, y: 6}
+  knockbackTime: 0.2
 --- !u!1 &7897393313911726681
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
     public void OnAttack(InputAction.CallbackContext context)
     {
         if (!context.performed) return;
-        if (IsAttacking) return;
+        if (!enabled || IsAttacking || playerMovement.IsOnLedge) return;
 
         AttackType choosenAttack = ChooseAttackType();
         StartAttacking(choosenAttack);
@@ -81,5 +81,13 @@ public class PlayerAttack : MonoBehaviour
     private void EndAttacking()
     {
         IsAttacking = false;
+    }
+
+    public void ResetAttack()
+    {
+        CancelInvoke();
+        IsAttacking = false;
+        if (activeHitBox != null) activeHitBox.EndAttack();
+        if (activeHitBoxObject != null) activeHitBoxObject.SetActive(false);
     }
 }

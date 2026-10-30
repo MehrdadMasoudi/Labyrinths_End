@@ -66,12 +66,14 @@ public class PlayerMovement : MonoBehaviour
         LedgeHanging,
         LedgeClimbing,
         LedgeDropping,
-        Attacking
+        Attacking,
+        KnockedBack
     }
     private MovementStates currentState = MovementStates.Grounded;
     private MovementStates lastAnimState;
     public bool CurrentStateIsAttacking => currentState == MovementStates.Attacking;
     public bool CurrentStateIsGrounded => currentState == MovementStates.Grounded;
+    public bool IsOnLedge => currentState == MovementStates.LedgeGrabbing || currentState == MovementStates.LedgeDropping || currentState == MovementStates.LedgeClimbing || currentState == MovementStates.LedgeHanging;
     public bool IsFacingRight => transform.localScale.x > 0f;
     public float MoveInputY => movement.y;
     private float fallSpeedDampingYThreshold;
@@ -87,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private static readonly MovementStates[] commitedStates =
     {
-        MovementStates.WallJumping,MovementStates.Dashing , MovementStates.LedgeGrabbing , MovementStates.LedgeDropping, MovementStates.LedgeClimbing , MovementStates.LedgeHanging
+        MovementStates.WallJumping,MovementStates.Dashing , MovementStates.LedgeGrabbing , MovementStates.LedgeDropping, MovementStates.LedgeClimbing , MovementStates.LedgeHanging, MovementStates.KnockedBack
     };
     private bool MovementFuncGuard() => Array.IndexOf(commitedStates, currentState) >= 0;
     void Awake()
@@ -151,6 +153,7 @@ public class PlayerMovement : MonoBehaviour
         {
             MovementStates.Grounded => movement.x != 0 ? 1 : 0,
             MovementStates.AirBorne => myRbFallSpeed > -1 ? 2 : 3,
+            MovementStates.KnockedBack => 3,
             MovementStates.WallSliding => 4,
             MovementStates.WallJumping => 2,
             MovementStates.LedgeHanging => 5,
@@ -345,6 +348,7 @@ public class PlayerMovement : MonoBehaviour
     // dash
     public void OnDash(InputAction.CallbackContext context)
     {
+        if (!enabled || MovementFuncGuard()) return;
         float direction = Mathf.Sign(transform.localScale.x);
         if (context.performed && dashCoolDownTimer <= 0f && dashsRemaining > 0)
         {
@@ -366,7 +370,7 @@ public class PlayerMovement : MonoBehaviour
             StartLedgeClimb();
             return;
         }
-        if (context.performed && jumpRemaining > 0 && currentState != MovementStates.Dashing)
+        if (context.performed && jumpRemaining > 0 && !MovementFuncGuard())
         {
             JumpTry();
         }
@@ -461,6 +465,7 @@ public class PlayerMovement : MonoBehaviour
     {
         ExitToGroundedState();
     }
+    // gameplay related
     public void PogoBounce()
     {
         myRigidBody2D.linearVelocityY = pogoBounceForce;
@@ -469,5 +474,29 @@ public class PlayerMovement : MonoBehaviour
     public void DashUnlock()
     {
         maxDashs = 1;
+    }
+    public void ResetForRespawn()
+    {
+        CancelInvoke();
+        StopAllCoroutines();
+        myRigidBody2D.linearVelocity = Vector2.zero;
+        movement = Vector2.zero;
+        ExitToGroundedState();
+    }
+    //knockback
+    public void Knockback(Vector2 velocity, float time)
+    {
+        if (IsOnLedge) return;
+        CancelInvoke(nameof(ExitToGroundedState));
+        CancelInvoke(nameof(EndWallJump));
+        CancelInvoke(nameof(EndKnockback));
+        ExitToGroundedState();
+        currentState = MovementStates.KnockedBack;
+        myRigidBody2D.linearVelocity = velocity;
+        Invoke(nameof(EndKnockback), time);
+    }
+    private void EndKnockback()
+    {
+        currentState = ResolveGroundedState();
     }
 }

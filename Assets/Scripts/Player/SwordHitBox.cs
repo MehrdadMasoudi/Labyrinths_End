@@ -7,12 +7,15 @@ public class SwordHitBox : MonoBehaviour
     [SerializeField] private int damage = 1;
     [SerializeField] private LayerMask pogoableLayers;
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private Vector2 enemyKnockback = new Vector2(6f, 3f);
+    [SerializeField] private float enemyStunTime = 0.2f;
     private ContactFilter2D pogoableFilter;
     private Collider2D hitCollider;
     private ContactFilter2D filter;
     private readonly List<Collider2D> results = new();
     private readonly HashSet<IDamageable> alreadyHit = new();
     private bool isAttacking;
+    private bool pogoed;
 
     void Awake()
     {
@@ -33,6 +36,7 @@ public class SwordHitBox : MonoBehaviour
 
     public void StartAttack()
     {
+        pogoed = false;
         isAttacking = true;
         alreadyHit.Clear();
         Physics2D.SyncTransforms(); // hitbox was just enabled/flipped
@@ -53,11 +57,20 @@ public class SwordHitBox : MonoBehaviour
         {
             var target = col.GetComponentInParent<IDamageable>();
             if (target != null && alreadyHit.Add(target))
+            {
+                var ai = col.GetComponentInParent<EnemyAI>();
+                if (ai != null)
+                {
+                    float dir = Mathf.Sign(ai.transform.position.x - playerMovement.transform.position.x);
+                    ai.Knockback(new Vector2(dir * enemyKnockback.x, enemyKnockback.y), enemyStunTime);
+                }
                 target.TakeDamage(damage);
+            }
         }
         hitCollider.Overlap(pogoableFilter, results);
-        if (results.Count > 0)
+        if (!pogoed && results.Count > 0)
         {
+            pogoed = true;
             playerMovement.PogoBounce();
         }
     }
