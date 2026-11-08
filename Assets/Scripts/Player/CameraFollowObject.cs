@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+
 public class CameraFollowObject : MonoBehaviour
 {
     [Header("References")]
@@ -9,59 +10,43 @@ public class CameraFollowObject : MonoBehaviour
 
     private Coroutine turnCoroutine;
     private PlayerMovement player;
-    private bool isFacingRight;
+    private bool lastFacingRight;
 
     private void Awake()
     {
         player = playerTransform.GetComponent<PlayerMovement>();
-        isFacingRight = player.IsFacingRight;
+        lastFacingRight = player.IsFacingRight;
     }
 
     private void Update()
     {
-        // Follow the player's position
         transform.position = playerTransform.position;
-    }
 
-    public void CallTurn()
-    {
-        if (turnCoroutine != null)
-            StopCoroutine(turnCoroutine);
-
-        turnCoroutine = StartCoroutine(FlipYRotation());
+        // start a turn only when the facing direction actually changes
+        bool facingRight = player.IsFacingRight;
+        if (facingRight != lastFacingRight)
+        {
+            lastFacingRight = facingRight;
+            if (turnCoroutine != null) StopCoroutine(turnCoroutine);
+            turnCoroutine = StartCoroutine(FlipYRotation());
+        }
     }
 
     private IEnumerator FlipYRotation()
     {
         float startRotation = transform.localEulerAngles.y;
-        float endRotationAmount = DetermineEndRotation();
-        float elapsedTime = 0f;
+        float endRotation = lastFacingRight ? 0f : 180f;
+        float elapsed = 0f;
 
-        while (elapsedTime < flipRotationTime)
+        while (elapsed < flipRotationTime)
         {
-            elapsedTime += Time.deltaTime;
-
-            float yRotation = Mathf.Lerp(
-                startRotation,
-                endRotationAmount,
-                elapsedTime / flipRotationTime
-            );
-
-            transform.localRotation = Quaternion.Euler(0f, yRotation, 0f);
-
+            elapsed += Time.deltaTime;
+            float y = Mathf.Lerp(startRotation, endRotation, elapsed / flipRotationTime);
+            transform.localRotation = Quaternion.Euler(0f, y, 0f);
             yield return null;
         }
 
-        transform.localRotation =
-            Quaternion.Euler(0f, endRotationAmount, 0f);
-
+        transform.localRotation = Quaternion.Euler(0f, endRotation, 0f);
         turnCoroutine = null;
-    }
-
-    private float DetermineEndRotation()
-    {
-        isFacingRight = !player.IsFacingRight;
-
-        return isFacingRight ? 180f : 0f;
     }
 }

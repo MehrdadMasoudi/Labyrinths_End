@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
-    [SerializeField] private PlayerAttack playerAttack;
     [Header("Speed")]
     [SerializeField] float speedOfPlayer = 10f;
     [SerializeField] float dashSpeedOfPlayer = 17f;
@@ -25,35 +23,26 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpRefillLockDuration = 0.1f; // blocks ground refill right after a jump
     [SerializeField] float coyoteTime = 0.1f;             // grace window to still ground-jump after leaving a ledge
     [SerializeField] float maxFallSpeed = 20f;
-    [SerializeField] float hardLand = 15f;
-    [SerializeField] float softLand = 3f;
     [Header("CoolDowns")]
     [SerializeField] float dashCoolDownDuration = 0.5f;
     [Header("LedgeGrab")]
     [SerializeField] float LedgeClimbDuration = 0.65f;
     [SerializeField] Vector2 ledgeGrabOffSet = new Vector2(0, -1.44f);
     [SerializeField] Vector2 climbOffSet = new Vector2(0.85f, 1.65f);
-    [SerializeField] float apexClipDuration = 0.625f;
     [SerializeField] private float pogoBounceForce = 12f;
 
-    private float peakY;
-    private bool wasRisingLastFrame;
-    private bool isInApex = false;
     int jumpRemaining;
     int dashsRemaining;
     float jumpRefillLockTimer;
     float coyoteTimer;
     bool ledgePenaltyApplied;
     float dashCoolDownTimer = 0f;
-    float fallStartY;
-    bool wasAirBorne;
     Vector2 movement = new Vector2(0, 0);
     GroundDetector groundDetector;
     WallDetector wallDetector;
     Rigidbody2D myRigidBody2D;
     LedgeDetector ledgeDetector;
     [SerializeField] TrailRenderer trailRenderer;
-    [SerializeField] CameraFollowObject cameraFollowObject;
 
     public enum MovementStates
     {
@@ -70,13 +59,23 @@ public class PlayerMovement : MonoBehaviour
         KnockedBack
     }
     private MovementStates currentState = MovementStates.Grounded;
-    private MovementStates lastAnimState;
     public bool CurrentStateIsAttacking => currentState == MovementStates.Attacking;
     public bool CurrentStateIsGrounded => currentState == MovementStates.Grounded;
     public bool IsOnLedge => currentState == MovementStates.LedgeGrabbing || currentState == MovementStates.LedgeDropping || currentState == MovementStates.LedgeClimbing || currentState == MovementStates.LedgeHanging;
     public bool IsFacingRight => transform.localScale.x > 0f;
     public float MoveInputY => movement.y;
     private float fallSpeedDampingYThreshold;
+    float fallStartY;
+    bool wasAirBorne;
+
+
+    // read-only info for PlayerAnimator
+    public MovementStates CurrentState => currentState;
+    public float MoveInputX => movement.x;
+    public bool IsGrounded => groundDetector.isGrounded;
+    public event Action LedgeClimbStarted; // start of ledge climbing
+    public event Action LedgeClimbEnded;
+    public event Action<float> Landed; // sends the fall distance
 
     private MovementStates ResolveGroundedState()
     {
@@ -118,8 +117,6 @@ public class PlayerMovement : MonoBehaviour
         ApplyFallGravity();
         CameraDampingFunc();
         CheckLanding();
-        CheckApex();
-        UpdateAnimator();
     }
 
     private void CameraDampingFunc()
@@ -140,50 +137,6 @@ public class PlayerMovement : MonoBehaviour
             CameraManager.instance.LerpedFromPlayerFalling = false;
             CameraManager.instance.LerpYDamping(false);
         }
-    }
-
-    private void UpdateAnimator()
-    {
-        //attack
-        animator.SetBool("IsAttacking", playerAttack.IsAttacking);
-        //
-        float myRbFallSpeed = myRigidBody2D.linearVelocityY;
-        ContiniousParamsAnimator(myRbFallSpeed);
-        int id = currentState switch
-        {
-            MovementStates.Grounded => movement.x != 0 ? 1 : 0,
-            MovementStates.AirBorne => myRbFallSpeed > -1 ? 2 : 3,
-            MovementStates.KnockedBack => 3,
-            MovementStates.WallSliding => 4,
-            MovementStates.WallJumping => 2,
-            MovementStates.LedgeHanging => 5,
-            MovementStates.Dashing => 6,
-            _ => animator.GetInteger("StateID")
-        };
-
-        if (currentState == lastAnimState && animator.GetInteger("StateID") == id)
-            return;
-
-        animator.SetInteger("StateID", id);
-
-        if (currentState == MovementStates.WallSliding &&
-            lastAnimState != MovementStates.WallSliding)
-        {
-            animator.SetTrigger("EnterWallHold");
-        }
-
-        lastAnimState = currentState;
-    }
-
-    private void ContiniousParamsAnimator(float rbFallSpeed)
-    {
-        animator.SetFloat("VelocityY", rbFallSpeed);
-        bool inApex = isInApex;
-        animator.SetBool("InApex", inApex);
-        bool inLand = animator.GetCurrentAnimatorStateInfo(0).IsName("Land") || animator.GetCurrentAnimatorStateInfo(0).IsName("LandFromDistance");
-        animator.SetBool("InLand", inLand);
-        bool inClimbing = currentState == MovementStates.LedgeClimbing;
-        animator.SetBool("InClimbing", inClimbing);
     }
 
     private void MovementFunc()
@@ -246,12 +199,10 @@ public class PlayerMovement : MonoBehaviour
         if (movement.x > 0)
         {
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-            cameraFollowObject.CallTurn();
         }
         else if (movement.x < 0)
         {
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
-            cameraFollowObject.CallTurn();
         }
     }
 
@@ -292,7 +243,7 @@ public class PlayerMovement : MonoBehaviour
         if (currentState != MovementStates.LedgeHanging) return;
 
         currentState = MovementStates.LedgeClimbing;
-        animator.SetTrigger("StartLedgeClimb");
+        LedgeClimbStarted?.Invoke(); // was: animator.SetTrigger("StartLedgeClimb")
         StartCoroutine(LedgeClimbRoutine());
     }
 
@@ -341,7 +292,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.position = endPos;
-        animator.ResetTrigger("StartLedgeClimb");
+        LedgeClimbEnded?.Invoke();
         ExitToGroundedState();
     }
 
@@ -417,42 +368,6 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = ResolveGroundedState();
     }
-    private void CheckLanding()
-    {
-        bool isAirBorneNow = currentState == MovementStates.AirBorne;
-        if (isAirBorneNow && !wasAirBorne) fallStartY = transform.position.y;
-        if (wasAirBorne && groundDetector.isGrounded)
-        {
-            float fallDistance = fallStartY - transform.position.y;
-            if (fallDistance > hardLand) animator.SetTrigger("EnterLandFromDistance");
-            else if (fallDistance > softLand) animator.SetTrigger("EnterLand");
-        }
-        wasAirBorne = isAirBorneNow;
-    }
-
-    private void CheckApex()
-    {
-        if (currentState != MovementStates.AirBorne)
-        {
-            wasRisingLastFrame = false;
-            return;
-        }
-
-        bool isRisingNow = myRigidBody2D.linearVelocityY > 0;
-
-        if (wasRisingLastFrame && !isRisingNow && !isInApex)
-        {
-            isInApex = true;
-            Invoke(nameof(EndApex), apexClipDuration);
-        }
-
-        wasRisingLastFrame = isRisingNow;
-    }
-
-    private void EndApex()
-    {
-        isInApex = false;
-    }
 
     private void ExitToGroundedState()
     {
@@ -498,5 +413,17 @@ public class PlayerMovement : MonoBehaviour
     private void EndKnockback()
     {
         currentState = ResolveGroundedState();
+    }
+    // land distance
+    private void CheckLanding()
+    {
+        bool isAirBorneNow = currentState == MovementStates.AirBorne;
+        if (isAirBorneNow && !wasAirBorne) fallStartY = transform.position.y;
+        if (wasAirBorne && groundDetector.isGrounded)
+        {
+            float fallDistance = fallStartY - transform.position.y;
+            Landed?.Invoke(fallDistance);
+        }
+        wasAirBorne = isAirBorneNow;
     }
 }
