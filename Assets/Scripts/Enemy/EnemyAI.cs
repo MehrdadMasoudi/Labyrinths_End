@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class EnemyAI : MonoBehaviour, IEnemyBrain
 {
     [SerializeField] Transform playerPos;
     [SerializeField] float detectionRange = 10f;
@@ -19,6 +19,8 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody2D rb;
     private float stunTimer;
     private float facing = 1f;
+    public void DisableBrain() => enabled = false;
+    public void EnableBrain() => enabled = true;
 
     void Awake()
     {

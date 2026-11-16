@@ -42,6 +42,24 @@ public class CameraManager : MonoBehaviour
         _normYPanAmount = _framingTransposer.Damping.y;
     }
 
+    public void RefreshPositionComposer(CinemachineCamera newCamera)
+    {
+        if (newCamera == null) return;
+
+        currentCamera = newCamera;
+
+        var composer = newCamera.GetComponent<CinemachinePositionComposer>();
+        if (composer == null)
+        {
+            Debug.LogWarning($"Position Composer not found on {newCamera.name}.");
+            _framingTransposer = null;   // <- don't keep the stale one
+            return;
+        }
+
+        _framingTransposer = composer;
+        _normYPanAmount = _framingTransposer.Damping.y;
+    }
+
     #region Lerp the Y Damping
     public void LerpYDamping(bool isPlayerFalling)
     {

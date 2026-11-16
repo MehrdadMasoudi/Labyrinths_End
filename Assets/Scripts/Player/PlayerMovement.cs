@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speedOfPlayer = 10f;
     [SerializeField] float dashSpeedOfPlayer = 17f;
     [SerializeField] float dashDuration = 0.38f;
-    [SerializeField] int maxDashs = 1;
+    [SerializeField] int maxDashs = 0;
     [Header("Jump")]
     [SerializeField] float jumpForceOfPlayer = 20f;
     [SerializeField] float shortHopJumpPlayerMultiplier = 0.5f;
@@ -43,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D myRigidBody2D;
     LedgeDetector ledgeDetector;
     [SerializeField] TrailRenderer trailRenderer;
-
     public enum MovementStates
     {
         Grounded,
@@ -386,10 +385,6 @@ public class PlayerMovement : MonoBehaviour
         myRigidBody2D.linearVelocityY = pogoBounceForce;
         jumpRemaining = maxJumps;
     }
-    public void DashUnlock()
-    {
-        maxDashs = 1;
-    }
     public void ResetForRespawn()
     {
         CancelInvoke();
@@ -425,5 +420,14 @@ public class PlayerMovement : MonoBehaviour
             Landed?.Invoke(fallDistance);
         }
         wasAirBorne = isAirBorneNow;
+    }
+    // unlocking abilites 
+    public void UnlockAbility(AbilityType ability)
+    {
+        switch (ability)
+        {
+            case AbilityType.Dash: maxDashs = 1; break;
+            case AbilityType.DoubleJump: maxJumps = 2; break;
+        }
     }
 }

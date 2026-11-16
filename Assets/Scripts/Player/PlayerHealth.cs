@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour, IDamageable
@@ -10,6 +11,10 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] private Rigidbody2D myRigidBody;
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private float invincibilityDur = 0.5f;
+    [SerializeField] private float hitStopDuration = 0.1f;
+    [SerializeField] private CinemachineImpulseSource damageImpulse;
+    [SerializeField] private SpriteRenderer playerSprite;
+    [SerializeField] private float blinkInterval = 0.08f;
     public int currentHealth { get; private set; }
     public bool IsDead { get; private set; }
     public bool IsInvincible;
@@ -26,6 +31,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
         currentHealth = Mathf.Max(0, currentHealth - amount);
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
+        damageImpulse.GenerateImpulse();
+        HitStopManager.Instance?.Freeze(hitStopDuration);
         StartInvincibility();
         if (currentHealth <= 0) Die();
     }
@@ -33,6 +40,10 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     private void Die()
     {
         IsDead = true;
+        CancelInvoke(nameof(EndInvincibility));   // <- kill the pending invoke
+        if (blinkRoutine != null) { StopCoroutine(blinkRoutine); blinkRoutine = null; }
+        playerSprite.enabled = true;
+        IsInvincible = false;                      // <- reset the flag
         StartCoroutine(DeathSequence());
     }
 
@@ -62,6 +73,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     private void StartInvincibility()
     {
         IsInvincible = true;
+        if (blinkRoutine != null) StopCoroutine(blinkRoutine);
+        blinkRoutine = StartCoroutine(BlinkRoutine());
         Invoke(nameof(EndInvincibility), invincibilityDur);
     }
 
@@ -69,4 +82,14 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         IsInvincible = false;
     }
+    private IEnumerator BlinkRoutine()
+    {
+        while (IsInvincible)
+        {
+            playerSprite.enabled = !playerSprite.enabled;
+            yield return new WaitForSeconds(blinkInterval);
+        }
+        playerSprite.enabled = true;
+    }
+    private Coroutine blinkRoutine;
 }

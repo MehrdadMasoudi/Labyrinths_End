@@ -31,6 +31,12 @@ public class RoomCameraController : MonoBehaviour
 
         CurrentCamera = newCamera;
         CurrentCamera.Priority = activePriority;
+
+        // Refresh CameraManager's cached Position Composer
+        if (CameraManager.instance != null)
+        {
+            CameraManager.instance.RefreshPositionComposer(CurrentCamera);
+        }
     }
 
     private void OnDestroy()

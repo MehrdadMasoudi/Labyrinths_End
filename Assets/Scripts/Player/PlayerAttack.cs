@@ -10,10 +10,15 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private GameObject UpSwordHitBox;
     [SerializeField] private GameObject DownSwordHitBox;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip[] swordSwingSounds; // Array for your 10 sounds
+
     [SerializeField] float AttackDuration = 1f;
     private SwordHitBox activeHitBox;
     private GameObject activeHitBoxObject;
     public bool IsAttacking { get; private set; }
+
     public enum AttackType
     {
         AttackOne,
@@ -23,6 +28,7 @@ public class PlayerAttack : MonoBehaviour
         UpAttack,
         WideAttack
     }
+
     public void OnAttack(InputAction.CallbackContext context)
     {
         if (!context.performed) return;
@@ -38,6 +44,8 @@ public class PlayerAttack : MonoBehaviour
         animator.SetInteger("AttackID", (int)attack);
         animator.SetTrigger("Attack");
 
+        PlaySwordSound(); // Play the sound!
+
         activeHitBoxObject = GetHitBoxFor(attack);
         activeHitBox = activeHitBoxObject.GetComponent<SwordHitBox>();
 
@@ -46,6 +54,24 @@ public class PlayerAttack : MonoBehaviour
 
         Invoke(nameof(DiasbleHitBox), hitBoxActiveDuration);
         Invoke(nameof(EndAttacking), AttackDuration);
+    }
+
+    private void PlaySwordSound()
+    {
+        if (audioSource != null && swordSwingSounds.Length > 0)
+        {
+            // 1. Randomize the pitch (0.9x to 1.1x) to make it feel less repetitive
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+
+            // 2. Pick a random sound from the 10 slots
+            int randomIndex = Random.Range(0, swordSwingSounds.Length);
+
+            // 3. Play the sound
+            audioSource.PlayOneShot(swordSwingSounds[randomIndex]);
+
+            // 4. Reset the pitch back to normal immediately for other sounds
+            audioSource.pitch = 1f;
+        }
     }
 
     private void DiasbleHitBox()
@@ -64,6 +90,7 @@ public class PlayerAttack : MonoBehaviour
 
         return Random.value < 0.5f ? AttackType.AttackOne : AttackType.AttackTwo;
     }
+
     private GameObject GetHitBoxFor(AttackType attack)
     {
         switch (attack)

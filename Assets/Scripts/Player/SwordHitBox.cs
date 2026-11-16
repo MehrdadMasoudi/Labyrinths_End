@@ -9,6 +9,7 @@ public class SwordHitBox : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private Vector2 enemyKnockback = new Vector2(6f, 3f);
     [SerializeField] private float enemyStunTime = 0.2f;
+    [SerializeField] private float hitStopDuration = 0.1f;
     private ContactFilter2D pogoableFilter;
     private Collider2D hitCollider;
     private ContactFilter2D filter;
@@ -52,6 +53,7 @@ public class SwordHitBox : MonoBehaviour
 
     private void CheckOverlaps()
     {
+        // 1. Handle Damage
         hitCollider.Overlap(filter, results);
         foreach (var col in results)
         {
@@ -64,9 +66,21 @@ public class SwordHitBox : MonoBehaviour
                     float dir = Mathf.Sign(ai.transform.position.x - playerMovement.transform.position.x);
                     ai.Knockback(new Vector2(dir * enemyKnockback.x, enemyKnockback.y), enemyStunTime);
                 }
+
                 target.TakeDamage(damage);
+                HitStopManager.Instance?.Freeze(hitStopDuration);
+
+                // If the thing we just hit is on a pogoable layer, bounce immediately!
+                if (!pogoed && ((1 << col.gameObject.layer) & pogoableLayers) != 0)
+                {
+                    pogoed = true;
+                    playerMovement.PogoBounce();
+                }
             }
         }
+
+        // 2. Handle Pogoing off non-damageable things (like spikes, if you ever add them)
+        // If you only want to pogo off things you damage, you can delete this bottom section entirely.
         hitCollider.Overlap(pogoableFilter, results);
         if (!pogoed && results.Count > 0)
         {
