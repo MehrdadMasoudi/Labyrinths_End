@@ -89,9 +89,21 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     {
         if (brain != null) brain.DisableBrain();
 
-        foreach (var t in touches) t.enabled = false;
-        rb.linearVelocity = Vector2.zero;
-        rb.simulated = false;
+        // Added null check for the array and the items inside it
+        if (touches != null)
+        {
+            foreach (var t in touches)
+            {
+                if (t != null) t.enabled = false;
+            }
+        }
+
+        // Added null check for the Rigidbody
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.simulated = false;
+        }
 
         // --- Animator-driven death ---
         if (animator != null && !string.IsNullOrEmpty(deathTriggerName))
@@ -99,13 +111,11 @@ public class EnemyHealth : MonoBehaviour, IDamageable
             animator.ResetTrigger(deathTriggerName);
             animator.SetTrigger(deathTriggerName);
 
-            // One frame so the trigger is consumed and the state transition begins.
             yield return null;
 
             float clipLength = GetCurrentClipLength();
             float wait = clipLength > 0f ? clipLength : deathFadeTime;
 
-            // Don't let a misconfigured clip length trap the object forever.
             if (wait <= 0f) wait = deathFadeTime;
 
             yield return new WaitForSeconds(wait);
@@ -127,7 +137,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
         gameObject.SetActive(false);
     }
-
     private float GetCurrentClipLength()
     {
         if (animator == null) return 0f;

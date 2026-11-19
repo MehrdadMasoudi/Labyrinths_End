@@ -66,7 +66,9 @@ public class PlayerMovement : MonoBehaviour
     private float fallSpeedDampingYThreshold;
     float fallStartY;
     bool wasAirBorne;
-
+    public int MaxDashs => maxDashs;
+    public int MaxJumps => maxJumps;
+    public int DashesRemaining => dashsRemaining;
 
     // read-only info for PlayerAnimator
     public MovementStates CurrentState => currentState;

@@ -17,6 +17,7 @@ public class Minotaur : MonoBehaviour, IEnemyBrain
         Stomping,
         Recovering
     }
+    public BossState CurrentState => currentState;
 
     [Header("References")]
     [SerializeField] private Transform player;
@@ -159,12 +160,8 @@ public class Minotaur : MonoBehaviour, IEnemyBrain
     private bool stompLaunched;
     private bool stompSlammed;
     private float stompVx;
-
-    // CHARGE FIX: per-charge hit tracking. Reset on entering Charging.
     private int chargeHitCount;
     private float chargeLastHitTime;
-
-    // POGO RESPONSE: timestamped counter of recent pogos.
     private float lastPogoTime = -999f;
     private int recentPogoCount;
     private int lastCountedPogoFrame = -1;
@@ -172,7 +169,7 @@ public class Minotaur : MonoBehaviour, IEnemyBrain
 
     private float FacingDir => isFacingRight ? 1f : -1f;
     private float RageScale => isRaging ? rageMultiplier : 1f;
-
+    public bool IsRaging => isRaging;
     public void DisableBrain() => enabled = false;
     public void EnableBrain() => enabled = true;
     public void GoToSleep()
@@ -266,9 +263,9 @@ public class Minotaur : MonoBehaviour, IEnemyBrain
 
     void Update()
     {
-        if (health.IsDead)
+        if (health == null || health.IsDead)
         {
-            HandleDeath();
+            if (health != null) HandleDeath();
             return;
         }
 

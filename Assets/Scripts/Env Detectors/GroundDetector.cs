@@ -4,14 +4,16 @@ public class GroundDetector : MonoBehaviour
 {
     public bool isGrounded = false;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] float CheckRadius = 0.1f;
+    [SerializeField] Vector2 checkSize = new Vector2(0.8f, 0.1f); // a bit narrower than your collider
+
     void Update()
     {
-        CheckForGrounded();
+        isGrounded = Physics2D.OverlapBox(transform.position, checkSize, 0f, groundLayer) != null;
     }
 
-    private void CheckForGrounded()
+    void OnDrawGizmosSelected()
     {
-        isGrounded = Physics2D.OverlapCircle(transform.position, CheckRadius, groundLayer) != null;
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(transform.position, checkSize);
     }
 }
