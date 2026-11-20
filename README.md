@@ -27,17 +27,13 @@ A 2D action platformer built in Unity as my first personal project, made to lear
 
 To run the automated tests, open **Window > General > Test Runner** in Unity and run the EditMode and PlayMode tests.
 
-<details>
-<summary><b>Assets used</b></summary>
-
+## Assets Used
 - **Art assets:** Luis Zuno ([@ansimuz](https://www.patreon.com/ansimuz)), [Arsule](https://arsule.itch.io/), [Ibrahimart](https://ibrahimart.itch.io/), [Game Developer Studio](https://www.gamedeveloperstudio.com/), [Surt (OpenGameArt)](https://opengameart.org/users/surt)
 - **Mobile control icons:** [Kenney](https://www.kenney.nl)
 - **Sword sounds:** StarNinjas
 - **Music:** [Pascal Belisle](https://soundcloud.com/thetoadz)
 - **Font:** [Craftron Gaming](https://www.dafont.com/craftron-gaming.d6128)
 - **Minotaur and hooded rogue sprites:** AI-generated
-
-</details>
 
 ## License
 
