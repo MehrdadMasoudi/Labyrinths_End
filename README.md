@@ -11,7 +11,7 @@ A 2D action platformer built in Unity as my first personal project, made to lear
 
 **Gameplay video:**
 
-[![Watch the gameplay video](https://img.youtube.com/vi/kF4wdP2c-AM/maxresdefault.jpg)](https://youtu.be/kF4wdP2c-AM)
+[Watch on YouTube](https://youtu.be/kF4wdP2c-AM)
 
 ## Screenshots
 
