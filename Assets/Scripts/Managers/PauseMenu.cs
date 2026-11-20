@@ -28,7 +28,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Start()
     {
-        Time.timeScale = 1f;
+        SetPausedState(false);
         isPaused = false;
 
         // The floating option only exists on mobile
@@ -52,14 +52,14 @@ public class PauseMenu : MonoBehaviour
     {
         if (pauseMenuUI != null) pauseMenuUI.SetActive(true);
         RefreshFloatingButton(); // show the saved state each time the menu opens
-        Time.timeScale = 0f;
+        SetPausedState(true);
         isPaused = true;
     }
 
     public void ResumeGame()
     {
         if (pauseMenuUI != null) pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        SetPausedState(false);
         isPaused = false;
 
         // Clear focus so inputs go back to the Player
@@ -68,14 +68,14 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        Time.timeScale = 1f;
+        SetPausedState(false);
         if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void QuitToMainMenu()
     {
-        Time.timeScale = 1f;
+        SetPausedState(false);
 
         // Drop all buttons before the scene dies
         if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
@@ -89,6 +89,14 @@ public class PauseMenu : MonoBehaviour
         if (joystick == null) return;
         joystick.SetFloating(!joystick.IsFloating);
         RefreshFloatingButton();
+    }
+
+    private void SetPausedState(bool paused)
+    {
+        if (HitStopManager.Instance != null)
+            HitStopManager.Instance.SetPaused(paused);
+        else
+            Time.timeScale = paused ? 0f : 1f;
     }
 
     private void RefreshFloatingButton()
