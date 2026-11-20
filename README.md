@@ -1,63 +1,46 @@
 # Labyrinth's End
 
-A 2D action platformer built in Unity as my first personal project, made
-to learn game development. Fight your way through enemies and traps,
-unlock new abilities, and defeat the Minotaur.
+A 2D action platformer built in Unity as my first personal project, made to learn game development. Fight your way through enemies and traps, unlock new abilities, and defeat the Minotaur.
 
 ## Play
 
-Platform Download
-
----
-
-Windows [Download (.zip)](https://github.com/MehrdadMasoudi/1stProject-Platformer/releases/download/v1.0.0/Labyrinth.s.End.-.Windows.rar)
-Android [Download (.apk)](https://github.com/MehrdadMasoudi/1stProject-Platformer/releases/download/v1.0.0/LabyrinthsEnd.-.Android.apk)
+| Platform | Download |
+|---|---|
+| Windows | [Download (.rar)](https://github.com/MehrdadMasoudi/1stProject-Platformer/releases/download/v1.0.0/Labyrinth.s.End.-.Windows.rar) |
+| Android | [Download (.apk)](https://github.com/MehrdadMasoudi/1stProject-Platformer/releases/download/v1.0.0/LabyrinthsEnd.-.Android.apk) |
 
 **Gameplay video:**
 
-[![Watch the gameplay
-video]](https://youtu.be/kF4wdP2c-AM)
+[![Watch the gameplay video](https://img.youtube.com/vi/kF4wdP2c-AM/maxresdefault.jpg)](https://youtu.be/kF4wdP2c-AM)
 
-![Boss fight](screenshots/BossFight.png) ![Platforms](screenshots/Platforming.png)
+## Screenshots
+
+![Boss fight](screenshots/BossFight.png)
+
+![Platforming](screenshots/Platforming.png)
 
 ## Run from source
 
-1.  Install **Unity 6000.5.7f1** (through Unity Hub).
-2.  Clone this repository and open the folder in Unity Hub.
-3.  Open `Assets/Scenes/MainMenu.unity` and press **Play**.
+1. Install **Unity 6000.5.7f1** through Unity Hub.
+2. Clone this repository and open the project folder in Unity Hub.
+3. Open `Assets/Scenes/MainMenu.unity` and press **Play**.
 
-To run the automated tests, open **Window \> General \> Test Runner** in
-Unity and run the EditMode and PlayMode tests.
+To run the automated tests, open **Window > General > Test Runner** in Unity and run the EditMode and PlayMode tests.
 
-```{=html}
 <details>
-```
+<summary><b>Assets used</b></summary>
 
-```{=html}
-<summary>
-```
-
-`<b>`{=html}Assets used`</b>`{=html}
-
-```{=html}
-</summary>
-```
-
-- **Art for Assets:** Luis Zuno ([@ansimuz](https://www.patreon.com/ansimuz)),
-  [Arsule](https://arsule.itch.io/),[Ibrahimart](https://ibrahimart.itch.io/), [Game Developer
-  Studio](https://www.gamedeveloperstudio.com/), [Surt
-  (OpenGameArt)](https://opengameart.org/users/surt)
+- **Art assets:** Luis Zuno ([@ansimuz](https://www.patreon.com/ansimuz)), [Arsule](https://arsule.itch.io/), [Ibrahimart](https://ibrahimart.itch.io/), [Game Developer Studio](https://www.gamedeveloperstudio.com/), [Surt (OpenGameArt)](https://opengameart.org/users/surt)
 - **Mobile control icons:** [Kenney](https://www.kenney.nl)
 - **Sword sounds:** StarNinjas
 - **Music:** [Pascal Belisle](https://soundcloud.com/thetoadz)
 - **Font:** [Craftron Gaming](https://www.dafont.com/craftron-gaming.d6128)
 - **Minotaur and hooded rogue sprites:** AI-generated
 
-```{=html}
 </details>
-```
 
 ## License
 
-Code: [MIT](LICENSE). Art, music and sound effects belong to their
-original creators and keep their own licenses. See Assets used.
+Code: [MIT](LICENSE).
+
+Art, music, and sound effects belong to their original creators and retain their respective licenses. See [Assets used](#assets-used).
